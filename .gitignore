@@ -1,7 +1,5 @@
 # Prerequisites
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
@@ -30,3 +28,33 @@
 *.exe
 *.out
 *.app
+*.app/
+
+# Тимчасові каталоги складання
+build/
+out/
+bin/
+
+# Специфічні файли збірки CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# VS Code, Visual Studio, CLion
+.vscode/
+.vs/
+.idea/
+
+# Локальні кеші та секрети
+.cache/
+.env
+*.env
+*.pem
+*.key
